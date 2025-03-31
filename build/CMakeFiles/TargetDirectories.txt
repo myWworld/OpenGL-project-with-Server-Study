@@ -1,0 +1,12 @@
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/CMakeFiles/glad.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/CMakeFiles/OpenGLGame.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/CMakeFiles/INSTALL.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/CMakeFiles/uninstall.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/CMakeFiles/INSTALL.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/src/CMakeFiles/glfw.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/docs/CMakeFiles/INSTALL.dir

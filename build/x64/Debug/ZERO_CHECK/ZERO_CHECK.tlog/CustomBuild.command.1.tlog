@@ -1,0 +1,10 @@
+^C:\USERS\SAMSUNG\DESKTOP\OPENGLPROJECT\BUILD\CMAKEFILES\5DD9BB8A66FDAC8694815DFEF3B88827\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/SAMSUNG/Desktop/OpenGLProject -BC:/Users/SAMSUNG/Desktop/OpenGLProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/SAMSUNG/Desktop/OpenGLProject/build/OpenGLGame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

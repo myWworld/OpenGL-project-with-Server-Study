@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/SAMSUNG/Desktop/OpenGLProject/build/cmake_install.cmake",
+		"C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/cmake_install.cmake",
+		"C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/src/cmake_install.cmake",
+		"C:/Users/SAMSUNG/Desktop/OpenGLProject/build/libs/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

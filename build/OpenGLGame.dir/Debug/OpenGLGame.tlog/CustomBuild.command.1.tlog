@@ -1,0 +1,10 @@
+^C:\USERS\SAMSUNG\DESKTOP\OPENGLPROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/SAMSUNG/Desktop/OpenGLProject -BC:/Users/SAMSUNG/Desktop/OpenGLProject/build --check-stamp-file C:/Users/SAMSUNG/Desktop/OpenGLProject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

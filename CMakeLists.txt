@@ -17,4 +17,4 @@ add_executable(OpenGLGame main.cpp)
 target_include_directories(OpenGLGame PRIVATE libs/glad/include libs/glfw/include)
 
 # Linking
-target_link_libraries(OpenGLGame PRIVATE glfw glad)
+target_link_libraries(OpenGLGame PRIVATE glfw glad opengl32)
