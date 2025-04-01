@@ -1,26 +1,6 @@
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-#include <iostream>
+#include "src/CommonHeader.h"
+#include "src/shader/shader.h"
 
-const char* vertexShaderSource = R"(
-  #version 330 core
-  layout (location = 0) in vec3 aPos;
-
-  void main()
-  {
-    gl_Position = vec4(aPos, 1.0);
-  }
-)";
-
-const char* fragmentShaderSource = R"(
-  #version 330 core
-  out vec4 FragColor;
-
-  void main()
-  {
-    FragColor = vec4(1.0, 0.2, 0.2, 1.0);
-  }
-)";
 
 int main()
 {
@@ -56,6 +36,9 @@ int main()
 
     glViewport(0,0,windowWidth, windowHeight);
 
+    Shader shader("src/shader/shaders/vertex.glsl", "src/shader/shaders/fragment.glsl");
+    shader.use();
+    
     while(!glfwWindowShouldClose(window))
     {
         glClearColor(0.2f,0.3f,0.3f,1.0f);
@@ -65,6 +48,8 @@ int main()
         glfwPollEvents();
     }
       
+  
+
     glfwDestroyWindow(window);
     glfwTerminate();
 

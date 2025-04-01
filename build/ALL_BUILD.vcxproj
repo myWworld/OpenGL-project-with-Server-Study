@@ -186,6 +186,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{906DE8C2-31D0-3F16-BB03-9A19CD7B0704}</Project>
       <Name>glfw</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\SAMSUNG\Desktop\OpenGLProject\build\src\shader\shader.vcxproj">
+      <Project>{D5484403-019E-3730-BE52-510CC38588E8}</Project>
+      <Name>shader</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
